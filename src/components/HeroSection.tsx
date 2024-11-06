@@ -5,7 +5,7 @@ function HeroSection() {
   return (
     <div className={HeroStyle.heroContainer}>
       <div>
-        <h1>ELECTRICITY SERVICES</h1>
+        <h1 className={HeroStyle.heroHeading}>ELECTRICITY SERVICES</h1>
         <p>
           Anything embarrassing hidden in the middle of text. All the Lorem
           Ipsuanything embarrassing h
