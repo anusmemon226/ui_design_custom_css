@@ -15,8 +15,8 @@ function Footer() {
             <h3>Quick Links</h3>
             <div className={FooterStyle.quickLinks}>
               <Link href={"/"}>Home</Link>
-              <Link href={"/about"}>About</Link>
-              <Link href={"/contact"}>Contact</Link>
+              <Link href={"/About"}>About</Link>
+              <Link href={"/Contact"}>Contact</Link>
             </div>
           </div>
           <div className={FooterStyle.blogContainer}>

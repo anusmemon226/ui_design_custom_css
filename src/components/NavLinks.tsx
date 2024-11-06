@@ -20,8 +20,8 @@ function NavLinks({showToggler,setShowToggler}:{showToggler:boolean,setShowToggl
     <>
       <div className={`${NavLinkStyle.navlinkContainer} ${showToggler?NavLinkStyle.togglerActive:""}`}>
         <NavLink label="Home" href="/"/>
-        <NavLink label="About" href="/about"/>
-        <NavLink label="Contact" href="/contact"/>
+        <NavLink label="About" href="/About"/>
+        <NavLink label="Contact" href="/Contact"/>
       </div>
     </>
   );
