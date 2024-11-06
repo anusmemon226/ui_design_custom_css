@@ -4,6 +4,9 @@ import FooterStyle from "../css/FooterStyling/FooterStyle.module.css";
 import Link from "next/link";
 import CustomButton from "./CustomButton";
 import Image from "next/image";
+import fbIcon from "../assets/icons/facebook.svg"
+import twitterIcon from "../assets/icons/twitter.svg"
+import linkedinIcon from "../assets/icons/linkedin.svg"
 function Footer() {
   return (
     <div className={FooterStyle.footerContainer}>
@@ -24,9 +27,9 @@ function Footer() {
               but the majority have suffered
             </p>
             <div>
-                <Image width={22} alt="facebook-icon" src={require("../assets/icons/facebook.svg")}/>
-                <Image width={22} alt="twitter-icon" src={require("../assets/icons/twitter.svg")}/>
-                <Image width={22} alt="linkedin-icon" src={require("../assets/icons/linkedin.svg")}/>
+                <Image width={22} alt="facebook-icon" src={fbIcon}/>
+                <Image width={22} alt="twitter-icon" src={twitterIcon}/>
+                <Image width={22} alt="linkedin-icon" src={linkedinIcon}/>
             </div>
           </div>
           <div className={FooterStyle.newsletterContainer}>

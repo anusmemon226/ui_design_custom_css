@@ -2,7 +2,7 @@
 import React from "react";
 import NavLinkStyle from "../css/NavbarStyling/NavLink.module.css";
 import NavLink from "./NavLink";
-function NavLinks({showToggler,setShowToggler}:{showToggler:boolean,setShowToggler:Function}) {
+function NavLinks({showToggler,setShowToggler}:{showToggler:boolean,setShowToggler:(status:boolean)=>void}) {
   window.onresize = function(){
     if(window.innerWidth>767){
         setShowToggler(false)
