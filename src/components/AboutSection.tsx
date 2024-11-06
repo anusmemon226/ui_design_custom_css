@@ -23,7 +23,7 @@ function AboutSection() {
         </div>
       </div>
       <div className={AboutStyle.aboutImage}>
-        <Image alt="" src={AboutImage} />
+        <Image alt="about-img" src={AboutImage} />
       </div>
     </div>
   );
