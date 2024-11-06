@@ -1,6 +1,6 @@
 .aboutContainer {
   padding: 40px 0 40px 0;
-  & div {
+  & .aboutHeader {
     & h2 {
       text-transform: uppercase;
     }
