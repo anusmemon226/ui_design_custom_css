@@ -1,10 +1,5 @@
 .aboutContainer {
   padding: 40px 0 40px 0;
-  & .aboutHeader {
-    & h2 {
-      text-transform: uppercase;
-    }
-  }
 }
 .aboutSection {
   display: flex;
