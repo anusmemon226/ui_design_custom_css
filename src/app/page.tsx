@@ -5,10 +5,9 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
     <div>
-      <HeroSection />
+      {/* <HeroSection />
       <Services />
-      <QuoteSection/>
-      
+      <QuoteSection/> */}
     </div>
   );
 }

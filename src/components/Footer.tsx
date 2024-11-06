@@ -1,4 +1,3 @@
-"use client"
 import React from "react";
 import FooterStyle from "../css/FooterStyling/FooterStyle.module.css";
 import Link from "next/link";

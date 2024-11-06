@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useState } from "react";
 import TextLogo from "./TextLogo";
 import NavLinks from "./NavLinks";
