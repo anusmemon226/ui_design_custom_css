@@ -1,0 +1,42 @@
+.navlinkContainer {
+  padding: 0 40px;
+}
+.navlink {
+  margin: 0 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  transition: all 0.2s;
+  &:hover{
+    color: rgb(49, 49, 49);
+  }
+}
+.active {
+  color: rgb(49, 49, 49);
+}
+
+.togglerActive {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 80px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .navlinkContainer {
+    display: none;
+  }
+  .navlink {
+    padding: 10px;
+    border-bottom: 1px solid white;
+    width: 100%;
+    text-align: center;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+

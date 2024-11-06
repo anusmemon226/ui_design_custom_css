@@ -1,0 +1,75 @@
+.footerController{
+    max-width: 1140px;
+    margin: auto;
+    padding: 30px 0;
+}
+.footerUpper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.qlContainer{
+    width: 33.33%;
+    padding: 20px;
+
+    & h3{
+        font-size: 24px;
+    }
+    & .quickLinks{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0;
+        & a{
+            padding: 4px 0;
+        }
+    }
+}
+.blogContainer{
+    width: 33.33%;
+    padding: 20px;
+    & h3{
+        font-size: 24px;
+    }
+    & p{
+        padding: 20px 0;
+    }
+    & div{
+        & img{
+            margin-right: 20px;
+        }
+    }
+}
+.newsletterContainer{
+    width: 33.33%;
+    padding: 20px;
+    & h3{
+        font-size: 24px;
+    }
+    & input{
+        margin: 20px 0 5px 0;
+        padding: 10px;
+        width: 100%;
+    }
+}
+.footerLower{
+    background-color: #f9b116;
+    padding: 20px;
+    & p{
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+    }
+}
+@media screen and (max-width:640px) {
+    .qlContainer{
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .blogContainer{
+        width: 100%;
+        padding: 20px 50px;
+    }
+    .newsletterContainer{
+        width: 100%;
+        padding: 20px 50px;
+    }
+}

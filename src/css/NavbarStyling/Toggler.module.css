@@ -1,0 +1,22 @@
+.navbarToggler{
+    display: none;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    & div{
+        border: 1px solid black;
+        width: 30px;
+        margin: 6px 0;
+    }
+}
+@media screen and (max-width:767px) {
+    .navbarToggler{
+        display: block;
+    }
+}
+@media screen and (max-width:320px) {
+    .navbarToggler{
+        margin-left: auto;
+        margin-top: 5px;
+    }
+}

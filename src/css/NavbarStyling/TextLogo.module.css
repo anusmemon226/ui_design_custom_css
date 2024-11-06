@@ -1,0 +1,16 @@
+.textLogo{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+    font-size: 22px;
+}
+@media screen and (max-width:670px) {
+    .textLogo{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:320px) {
+    .textLogo{
+        font-size: 15px;
+    }
+}

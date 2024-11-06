@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #f9b116;
+    padding: 10px;
+    overflow: hidden;
+}
+.navbarController{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+}
+.active{
+    height: 240px;
+}
+@media screen and (max-width:255px) {
+    .navbarController{
+        justify-content: center;
+    }
+    .active{
+        height: 260px;
+    }
+}
