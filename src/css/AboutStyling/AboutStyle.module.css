@@ -57,13 +57,13 @@
 }
 @media screen and (max-width: 640px) {
   .aboutContainer {
-    & .aboutHeader{
-        & div{
-            padding: 40px 10px;
+    & .aboutHeader {
+      & div {
+        padding: 40px 10px;
+        & h2 {
+          font-size: 35px;
         }
-        h2{
-            font-size: 35px;
-        }
+      }
     }
   }
   .aboutSection {
